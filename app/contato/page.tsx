@@ -16,7 +16,7 @@ export default function ContactPage() {
       <PageHero
         title="Fale Conosco"
         description="Estamos prontos para transformar resíduos em soluções junto com você"
-        backgroundImage="/images/contact-hero.jpg"
+        backgroundImage="/images/amazonia1.jpg"
       />
 
       <section className="py-16 md:py-24 bg-gray-50">

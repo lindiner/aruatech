@@ -11,7 +11,7 @@ export default function PageHero({ title, description, backgroundImage, classNam
   return (
     <section
       className={cn(
-        "relative flex items-center justify-center py-32 md:py-40 mt-16 text-white text-center overflow-hidden",
+        "relative flex items-center justify-center py-32 md:py-30 mt-16 text-white text-center overflow-hidden",
         className
       )}
       aria-labelledby="page-title"
@@ -35,7 +35,7 @@ export default function PageHero({ title, description, backgroundImage, classNam
       <div className="blob-primary w-64 h-64 -top-20 -left-20"></div>
       <div className="blob-accent w-64 h-64 bottom-10 right-10"></div>
 
-      <div className="container relative z-10">
+      <div className="container relative z-10 flex flex-col items-center text-center">
         <h1 
           id="page-title" 
           className="text-3xl md:text-5xl font-bold mb-6 drop-shadow-md animate-slideUp"

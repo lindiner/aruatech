@@ -15,7 +15,7 @@ export default function AboutPage() {
       <PageHero
         title="Sobre a AruaTech"
         description="Conectando tecnologia, sustentabilidade e inclusão para um amanhã regenerativo"
-        backgroundImage="/images/about-hero.jpg"
+        backgroundImage="/images/amazonia2.jpg"
       />
 
       <section className="py-16 md:py-24 bg-gray-50">
@@ -27,8 +27,10 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4">
                 <p>
-                  A AruaTech nasceu em 2022 da visão de transformar um dos maiores problemas ambientais da atualidade -
-                  o lixo eletrônico - em soluções sustentáveis para a indústria e construção civil.
+                  A Aruatech nasceu da necessidade urgente de repensar nosso modelo de produção e consumo. Em um mundo onde os recursos naturais são finitos e os problemas ambientais se agravam a cada dia, a empresa se posiciona como agente de transformação, oferecendo soluções inovadoras que combinam tecnologia, design e sustentabilidade.
+                </p>
+                <p>
+                  Na intersecção entre tecnologia de ponta e a riqueza da Amazônia, a AruaTech redefine o potencial dos recursos subutilizados. Somos uma empresa amazonense que transforma resíduos industriais, materiais pós-consumo e subprodutos da agroindústria em soluções ecológicas de alto desempenho, impulsionando a economia circular e a reindustrialização verde.
                 </p>
                 <p>
                   Com base em Manaus, no coração da Amazônia, desenvolvemos tecnologias que integram economia circular e
@@ -67,7 +69,7 @@ export default function AboutPage() {
 
             <div className="relative">
               <Image
-                src="/images/team-photo.jpg"
+                src="/images/amazonia2.jpg"
                 alt="Equipe AruaTech"
                 width={600}
                 height={400}
@@ -89,21 +91,39 @@ export default function AboutPage() {
             {[
               {
                 name: "Adley Piovesan",
-                position: "Economista | Executivo",
-                bio: "Especialista em finanças sustentáveis e modelos de negócios circulares com 15 anos de experiência.",
-                image: "/images/adley.jpg",
+                position: "CFO - Economista | Executivo | Auditor | Consultor Financeiro",
+                bio: " ",
+                image: "/images/time/ADLEY.jpeg",
               },
               {
                 name: "Gabriel Lysias",
-                position: "Engenheiro Ambiental | CTO",
-                bio: "Especialista em tecnologias de reciclagem e desenvolvimento de materiais sustentáveis com foco em biomassas amazônicas.",
-                image: "/placeholder.svg?height=500&width=400",
+                position: "CEO - Biotecnologo | ESG | Bioeconomia | Industria ",
+                bio: " ",
+                image: "/images/time/DSC00571.jpg"
               },
               {
                 name: "Ana Lindiner",
-                position: "Bióloga | Diretora de P&D",
-                bio: "Pesquisadora com foco em biotecnologia aplicada e desenvolvimento de soluções baseadas na biodiversidade amazônica.",
-                image: "/placeholder.svg?height=500&width=400",
+                position: "CTO -  Dados | Carbono | Sustentabilidade | Inovação",
+                bio: " ",
+                image: "/images/time/Ana.png",
+              },
+              {
+                name: "Alessandro Menzani",
+                position: "CPO – Engenheiro Químico | Sustentabilidade | Indústria | Produto",
+                bio: " ",
+                image: "/images/time/Menzani.jpeg",
+              },
+              {
+                name: "Wallison Coutinho",
+                position: "CCO – Novos Negócios | Estratégia Comercial | Inovação",
+                bio: " ",
+                image: "/images/time/Wallison.jpeg",
+              },
+              {
+                name: "Marcelo Englander",
+                position: "Industria | Sustentebilidade | Inovação",
+                bio: " ",
+                image: "/images/time/marcelo.jpeg",
               },
               // Add more team members here
             ].map((member, index) => (

@@ -4,14 +4,8 @@ import { Facebook, Instagram, Linkedin, Youtube, MapPin, Mail, Phone } from 'luc
 
 export default function Footer() {
   return (
-    <footer className="relative overflow-hidden bg-gradient-to-br from-gray-900 to-gray-800 text-white" aria-labelledby="footer-heading">
-      {/* Background pattern */}
-      <div className="pattern-bg opacity-[0.03]"></div>
-      
-      {/* Decorative blobs */}
-      <div className="blob-primary w-64 h-64 -top-20 -left-20"></div>
-      <div className="blob-accent w-64 h-64 bottom-10 right-10"></div>
-      
+    <footer className="relative overflow-hidden bg-gradient-to-br from-gray-900 to-gray-800 text-white h-[400px] overflow-auto" aria-labelledby="footer-heading" >
+
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
@@ -19,7 +13,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <Image
-              src="/images/arua-tech-logo-white.png"
+              src="/images/5.png"
               alt="AruaTech Logo"
               width={150}
               height={40}
@@ -60,7 +54,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div>
+          {/*<div>
             <h3 className="text-lg font-semibold mb-6 relative inline-block">
               Soluções
               <span className="absolute -bottom-2 left-0 w-10 h-0.5 bg-primary rounded-full"></span>
@@ -87,7 +81,7 @@ export default function Footer() {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           <div>
             <h3 className="text-lg font-semibold mb-6 relative inline-block">
@@ -101,18 +95,18 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/sustentabilidade" className="text-gray-300 hover:text-white transition-colors hover:translate-x-1 inline-block">
+                <Link href="/sustentabilidad" className="text-gray-300 hover:text-white transition-colors hover:translate-x-1 inline-block">
                   Sustentabilidade
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="text-gray-300 hover:text-white transition-colors hover:translate-x-1 inline-block">
+                <Link href="/blo" className="text-gray-300 hover:text-white transition-colors hover:translate-x-1 inline-block">
                   Blog
                 </Link>
               </li>
               <li>
                 <Link href="/contato" className="text-gray-300 hover:text-white transition-colors hover:translate-x-1 inline-block">
-                  Carreiras
+                  Contato
                 </Link>
               </li>
             </ul>
@@ -130,11 +124,11 @@ export default function Footer() {
               </li>
               <li className="flex items-start">
                 <Mail className="h-5 w-5 mr-3 mt-0.5 flex-shrink-0 text-primary" />
-                <span className="text-gray-300">contato@aruatech.com</span>
+                <span className="text-gray-300">io@aruatech.eco.br</span>
               </li>
               <li className="flex items-start">
                 <Phone className="h-5 w-5 mr-3 mt-0.5 flex-shrink-0 text-primary" />
-                <span className="text-gray-300">+55 (92) 1234-5678</span>
+                <span className="text-gray-300">+55 (21) 98297-7376</span>
               </li>
             </ul>
           </div>

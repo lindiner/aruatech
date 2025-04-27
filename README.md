@@ -28,3 +28,29 @@ Continue building your app on:
 2. Deploy your chats from the v0 interface
 3. Changes are automatically pushed to this repository
 4. Vercel deploys the latest version from this repository
+
+## Run Locally
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/lindiners-projects/v0-auratech.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd v0-auratech
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and go to `http://localhost:3000` to view the project.

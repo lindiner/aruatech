@@ -11,9 +11,9 @@ import { usePathname } from "next/navigation"
 const navigation = [
   { name: "Home", href: "/" },
   { name: "Sobre Nós", href: "/sobre" },
-  { name: "Soluções", href: "/solucoes" },
-  { name: "Sustentabilidade", href: "/sustentabilidade" },
-  { name: "Blog", href: "/blog" },
+ // { name: "Soluções", href: "/solucoes" },
+ // { name: "Sustentabilidade", href: "/sustentabilidade" },
+ // { name: "Blog", href: "/blog" },
 ]
 
 export default function Header() {
@@ -47,7 +47,7 @@ export default function Header() {
       <div className="container flex items-center justify-between">
         <Link href="/" className="flex items-center relative z-10" aria-label="AruaTech - Página inicial">
           <Image
-            src="/images/arua-tech-logo.png"
+            src="images/6.png"
             alt="AruaTech Logo"
             width={150}
             height={40}
@@ -107,15 +107,16 @@ export default function Header() {
       <div
         id="mobile-menu"
         className={cn(
-          "fixed inset-y-0 right-0 z-50 w-full bg-white/95 backdrop-blur-md px-6 py-6 lg:hidden transform transition-transform duration-300 ease-in-out",
-          mobileMenuOpen ? "translate-x-0" : "translate-x-full",
+          "fixed top-0 bottom-0 right-0 z-50 w-full bg-white px-6 py-6 lg:hidden transform transition-transform duration-300 ease-in-out",
+          mobileMenuOpen ? "translate-x-0" : "translate-x-full"
         )}
+        style={{ backgroundColor: "white" }} // Ensure background is white
         aria-hidden={!mobileMenuOpen}
       >
         <div className="flex items-center justify-between">
           <Link href="/" className="-m-1.5 p-1.5" onClick={() => setMobileMenuOpen(false)}>
             <Image
-              src="/images/arua-tech-logo.png"
+              src="images/logo.png"
               alt="AruaTech Logo"
               width={150}
               height={40}

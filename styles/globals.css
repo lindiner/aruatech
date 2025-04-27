@@ -92,3 +92,28 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  /* Mobile styles */
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Tablet (iPad) styles */
+  body {
+    font-size: 16px;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 1025px) {
+  /* Web styles */
+  body {
+    font-size: 18px;
+    padding: 30px;
+  }
+}
