@@ -88,8 +88,21 @@ export default function ContactForm() {
     setSubmitStatus("idle")
 
     try {
-      await new Promise((resolve) => setTimeout(resolve, 2000))
-      console.log("Form data:", formData)
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      })
+
+      if (!response.ok) {
+        throw new Error("Erro ao enviar formulário")
+      }
+
+      const result = await response.json()
+      console.log("Form submitted successfully:", result)
+
       setSubmitStatus("success")
       setFormData({
         name: "",
@@ -191,14 +204,14 @@ export default function ContactForm() {
       {submitStatus === "success" && (
         <div className="flex items-center space-x-2 p-4 bg-green-50 border border-green-200 rounded-lg">
           <CheckCircle className="w-5 h-5 text-green-600" />
-          <p className="text-green-800">Mensagem enviada com sucesso! Entraremos em contato em breve.</p>
+          <p className="text-green-800">Mensagem enviada e salva no banco de dados com sucesso!</p>
         </div>
       )}
 
       {submitStatus === "error" && (
         <div className="flex items-center space-x-2 p-4 bg-red-50 border border-red-200 rounded-lg">
           <AlertCircle className="w-5 h-5 text-red-600" />
-          <p className="text-red-800">Erro ao enviar mensagem. Por favor, tente novamente.</p>
+          <p className="text-red-800">Erro ao salvar no banco de dados. Por favor, tente novamente.</p>
         </div>
       )}
 
@@ -207,12 +220,12 @@ export default function ContactForm() {
           {isSubmitting ? (
             <>
               <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin mr-2" />
-              Enviando...
+              Salvando no banco...
             </>
           ) : (
             <>
               <Send className="w-4 h-4 mr-2" />
-              Enviar Mensagem
+              Enviar e Salvar
             </>
           )}
         </Button>

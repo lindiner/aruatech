@@ -105,7 +105,7 @@ export default function AboutPage() {
                 name: "Ana Lindiner",
                 position: "CTO -  Dados | Carbono | Sustentabilidade | Inovação",
                 bio: " ",
-                image: "/images/time/Ana.png",
+                image: "/images/time/analindiner.png",
               },
               {
                 name: "Alessandro Menzani",
