@@ -20,24 +20,24 @@ export default function Footer() {
               className="h-10 w-auto mb-6"
             />
             <p className="text-gray-300 mb-6 max-w-md">
-              Transformamos resíduos eletrônicos e biomassas amazônicas em soluções sustentáveis.
+              Transformamos resíduos e biomassas amazônicas em soluções sustentáveis.
             </p>
             <div className="flex space-x-4">
               <Link
-                href="#"
+                href="https://www.linkedin.com/company/aruatech/"
                 className="text-gray-400 hover:text-white transition-colors hover:translate-y-[-3px] inline-block"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="h-5 w-5" />
               </Link>
               <Link
-                href="#"
+                href="https://www.instagram.com/aruatech.eco/"
                 className="text-gray-400 hover:text-white transition-colors hover:translate-y-[-3px] inline-block"
                 aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5" />
               </Link>
-              <Link
+              {/*<Link
                 href="#"
                 className="text-gray-400 hover:text-white transition-colors hover:translate-y-[-3px] inline-block"
                 aria-label="Facebook"
@@ -50,7 +50,7 @@ export default function Footer() {
                 aria-label="YouTube"
               >
                 <Youtube className="h-5 w-5" />
-              </Link>
+              </Link><a href="#" class="text-gray-400 hover:text-white transition-colors hover:translate-y-[-3px] inline-block" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin h-5 w-5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg></a><a href="#" class="text-gray-400 hover:text-white transition-colors hover:translate-y-[-3px] inline-block" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram h-5 w-5"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg></a><a href="#" class="text-gray-400 hover:text-white transition-colors hover:translate-y-[-3px] inline-block" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook h-5 w-5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a><a href="#" class="text-gray-400 hover:text-white transition-colors hover:translate-y-[-3px] inline-block" aria-label="YouTube"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-youtube h-5 w-5"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"></path><path d="m10 15 5-3-5-3z"></path></svg></a>*/}
             </div>
           </div>
 
@@ -94,7 +94,7 @@ export default function Footer() {
                   Sobre Nós
                 </Link>
               </li>
-              <li>
+              {/*<li>
                 <Link href="/sustentabilidad" className="text-gray-300 hover:text-white transition-colors hover:translate-x-1 inline-block">
                   Sustentabilidade
                 </Link>
@@ -103,7 +103,7 @@ export default function Footer() {
                 <Link href="/blo" className="text-gray-300 hover:text-white transition-colors hover:translate-x-1 inline-block">
                   Blog
                 </Link>
-              </li>
+              </li>*/}
               <li>
                 <Link href="/contato" className="text-gray-300 hover:text-white transition-colors hover:translate-x-1 inline-block">
                   Contato

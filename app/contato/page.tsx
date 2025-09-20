@@ -2,7 +2,7 @@ import PageHero from "@/components/page-hero"
 import ContactForm from "@/components/contact-form"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { MapPin, Mail, Phone, Linkedin, Instagram, Facebook, Youtube } from "lucide-react"
+import { MapPin, Mail } from "lucide-react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -33,11 +33,11 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-lg font-semibold mb-1">Endereço</h3>
                     <p className="text-muted-foreground">
-                      Av. Darcy Vargas, 1200
+                      Av. Castelo Branco, 504
                       <br />
-                      Parque 10 de Novembro
+                      Cachoeirinha
                       <br />
-                      Manaus - AM, 69050-020
+                      Manaus - AM, 69065-010
                     </p>
                   </div>
                 </div>
@@ -51,46 +51,10 @@ export default function ContactPage() {
                     <p className="text-muted-foreground">
                       <strong>Comercial:</strong> comercial@aruatech.com
                       <br />
-                      <strong>Parcerias:</strong> parcerias@aruatech.com
+                      <strong>Parcerias:</strong> oi@aruatech.com
                       <br />
-                      <strong>Trabalhe conosco:</strong> rh@aruatech.com
                     </p>
                   </div>
-                </div>
-
-                <div className="flex items-start">
-                  <div className="bg-primary text-white p-3 rounded-full mr-4">
-                    <Phone className="h-5 w-5" aria-hidden="true" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold mb-1">Telefones</h3>
-                    <p className="text-muted-foreground">
-                      <strong>Comercial:</strong> +55 (92) 1234-5678
-                      <br />
-                      <strong>WhatsApp:</strong> +55 (92) 98765-4321
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="pt-4">
-                <h3 className="text-lg font-semibold mb-3">Redes Sociais</h3>
-                <div className="flex space-x-4">
-                  {[
-                    { icon: Linkedin, label: "LinkedIn" },
-                    { icon: Instagram, label: "Instagram" },
-                    { icon: Facebook, label: "Facebook" },
-                    { icon: Youtube, label: "YouTube" },
-                  ].map((social, index) => (
-                    <a
-                      key={index}
-                      href="#"
-                      className="bg-primary text-white p-3 rounded-full hover:bg-primary-dark transition-colors"
-                      aria-label={social.label}
-                    >
-                      <social.icon className="h-5 w-5" aria-hidden="true" />
-                    </a>
-                  ))}
                 </div>
               </div>
             </div>

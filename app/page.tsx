@@ -32,6 +32,7 @@ export default function Home() {
                 <span className="text-primary">Reduzimos o impacto,</span> valorizamos a floresta e regeneramos o planeta              </h1>
               <p className="text-lg text-gray-600 mb-8 animate-slideUp animation-delay-100">
                   Na Aruatech, transformamos residuos, passivos ambientais e biomassas amazônicas em soluções que regeneram o meio ambiente e impulsionam um futuro de materiais de baixo carbono.
+                  
               </p>
               <div className="flex flex-wrap justify-center gap-4 animate-slideUp animation-delay-200">
                 <Button asChild size="lg" className="rounded-full px-8">
