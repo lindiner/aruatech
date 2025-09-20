@@ -90,16 +90,16 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
+                name: "Gabriel Lysias",
+                position: "CEO - Biotecnologo | ESG | Bioeconomia | Industria ",
+                bio: " ",
+                image: "/images/time/gabriel.png"
+              },
+              {
                 name: "Adley Piovesan",
                 position: "CFO - Economista | Executivo | Auditor | Consultor Financeiro",
                 bio: " ",
                 image: "/images/time/ADLEY.jpeg",
-              },
-              {
-                name: "Gabriel Lysias",
-                position: "CEO - Biotecnologo | ESG | Bioeconomia | Industria ",
-                bio: " ",
-                image: "/images/time/DSC00571.jpg"
               },
               {
                 name: "Ana Lindiner",
@@ -112,12 +112,6 @@ export default function AboutPage() {
                 position: "CPO – Engenheiro Químico | Sustentabilidade | Indústria | Produto",
                 bio: " ",
                 image: "/images/time/Menzani.jpeg",
-              },
-              {
-                name: "Wallison Coutinho",
-                position: "CCO – Novos Negócios | Estratégia Comercial | Inovação",
-                bio: " ",
-                image: "/images/time/Wallison.jpeg",
               },
               {
                 name: "Marcelo Englander",

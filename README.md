@@ -34,23 +34,23 @@ Continue building your app on:
 To run this project locally, follow these steps:
 
 1. Clone the repository:
-   ```bash
+   \`\`\`bash
    git clone https://github.com/lindiners-projects/v0-auratech.git
-   ```
+   \`\`\`
 
 2. Navigate to the project directory:
-   ```bash
+   \`\`\`bash
    cd v0-auratech
-   ```
+   \`\`\`
 
 3. Install dependencies:
-   ```bash
+   \`\`\`bash
    npm install
-   ```
+   \`\`\`
 
 4. Start the development server:
-   ```bash
+   \`\`\`bash
    npm run dev
-   ```
+   \`\`\`
 
 5. Open your browser and go to `http://localhost:3000` to view the project.
